@@ -42,7 +42,7 @@ dependencies:
 
   #App modules
   cean_model:
-    path: ./modules/models
+    path: ../models
 
 
 dev_dependencies:

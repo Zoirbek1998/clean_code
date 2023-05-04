@@ -108,7 +108,7 @@ packages:
   cean_model:
     dependency: "direct main"
     description:
-      path: "modules/models"
+      path: "../models"
       relative: true
     source: path
     version: "1.0.0+1"

@@ -37,13 +37,19 @@ dependencies:
   cupertino_icons: ^1.0.2
   flutter_bloc: ^8.1.2
   bloc:
+  get_it: ^7.3.0
+  injectable: ^2.1.1
 
 
  #App modules
-  clean_data:
-    path: ./modules/data
+  cean_model:
+    path: ./modules/models
+  clean_business:
+    path: ./modules/business
 
 dev_dependencies:
+  injectable_generator: ^2.1.5
+  build_runner: ^2.3.3
   flutter_test:
     sdk: flutter
 
